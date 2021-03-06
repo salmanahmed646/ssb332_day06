@@ -1,0 +1,526 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>W3schools Html </title>
+    <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+    <!-- Main-Menu Start -->
+    <div class="main-menu">
+        <div class="container">
+            <ul>
+                <li> <a href="index.html"> Home </a> </li>
+                <li> <a href="w3school.html"> W3schools HTML Tags </a> </li>
+            </ul>
+        </div>
+    </div>
+    <!-- Main-Menu End -->
+
+    <!-- Main Tag -->
+    <div class="container margin-bottom font padding">
+        <h1> Main </h1>
+        <main>
+            <h1>Lorem ipsum dolor sit amet.</h1>
+            <p> Chrome, Firefox, and Edge are the most used browsers today. </p>
+
+            <article>
+                <h2>Lorem, ipsum dolor.</h2>
+                <p> Lorem, ipsum dolor sit amet consectetur adipisicing elit. Laudantium, quia consectetur magni nihil similique vel? Exercitationem ad saepe aut nam. </p>
+            </article>
+            <article>
+                <h2>Lorem, ipsum dolor.</h2>
+                <p> Lorem, ipsum dolor sit amet consectetur adipisicing elit. Laudantium, quia consectetur magni nihil similique vel? Exercitationem ad saepe aut nam. </p>
+            </article>
+        </main>
+    </div>
+    <!-- Mark -->
+    <div class="container font margin-bottom bg-gray padding">
+        <h1> Mark </h1>
+        <p> Lorem ipsum dolor, <mark> sit amet consectetur adipisicing elit. </mark> Laudantium, ab! </p>
+    </div>
+    <!--  -->
+    <!-- Meter -->
+    <div class="container font padding margin-bottom">
+        <h1> Meter </h1>
+        <label for="disk_c"> Disk Usage C: </label>
+        <meter id="disk_c" value="4" min="0" max="12"> 4 out of 12 </meter> <br>
+
+        <label for="disk_d"> Disk Usage D: </label>
+        <metar id="disk_d" value="0.6"> 60% </metar>
+    </div>
+    <!--  -->
+    <!-- No-Script -->
+    <div class="container font padding margin-bottom bg-gray">
+        <h1>nOscript</h1>
+        <script>
+            document.write("My name is salman")
+        </script>
+        <noscript>
+            Sorry, Your Browser does not support JavaScript!
+        </noscript>
+    </div>
+    <!--  -->
+    <!-- Object -->
+    <div class="container font padding margin-bottom">
+        <h1>Object</h1>
+        <object data="images/run-2.jpg" width="200" height="200"></object>
+    </div>
+    <!--  -->
+    <!-- Order List  -->
+    <div class="container font padding margin-bottom bg-gray"> 
+        <h1> Order List </h1>
+        <ol class="padding">
+            <li> Dhaka </li>
+            <li> Sylhet </li>
+            <li> Rajshahi </li>
+            <li> Khulna </li>
+            <li> Gazipur </li>
+            <li> Bogura </li>
+            <li> Cumilla </li>
+        </ol>
+        <ol start="150" class="padding">
+            <li> Jashore </li>
+            <li> Tongi </li>
+            <li> Cox's Bazar </li>
+            <li> Chottogram </li>
+            <li> Pabna </li>
+            <li> Dhaka </li>
+            <li> Sylhet </li>
+        </ol>
+    </div>
+    <!--  -->
+    <!-- Option-Group -->
+    <div class="container font padding margin-bottom">
+        <h1> Option Group </h1>
+        <form action="#">
+            <label for="city"> Choose your city </label>
+            <select name="city" id="city" class="font">
+                <optgroup label="Bangladesh">
+                    <option value="dhaka"> Dhaka </option>
+                    <option value="sylhet"> Sylhet </option>
+                </optgroup>
+                <optgroup label="India">
+                    <option value="kolkata">Kolkata</option>
+                    <option value="Mumbai">Mumbai</option>
+                    <option value="Channai">Channai</option>
+                </optgroup>
+            </select> <br> <br>
+            <input class="font" type="submit" value="submit">
+        </form>
+    </div>
+    <!--  -->
+    <!-- Option -->
+    <div class="container font padding margin-bottom bg-gray">
+        <h1> Option </h1>
+        <label for="option"> Choose a Option </label>
+
+        <select id="option" class="font">
+            <option value="video"> Video </option>
+            <option value="Images"> Images </option>
+            <option value="Mp3"> Mp3 </option>
+        </select>
+    </div>
+    <!--  -->
+
+    <!-- Output  -->
+    <div class="container font padding margin-bottom">
+        <h1> Output </h1>
+        <form oninput="x.value=parseInt(a.value)+parseInt(a.value)">
+            <input type="range" id="a" value="50">
+            +<input type="number" id="b" value="25">
+            =<output name="x" for="a b"></output>
+        </form>
+    </div>
+    <!--  -->
+    <!-- Param -->
+    <div class="container font padding margin-bottom bg-gray">
+        <h1> Param (I don't understand) </h1>
+        <object data="horse.wav">
+            <param name="autoplay" value="true">
+        </object>
+    </div>
+    <!--  -->
+    <!-- Picture -->
+    <div class="container font padding margin-bottom">
+        <h1> Picture (Not Working) </h1>
+        <picture>
+            <source media="min-width: 600px" scrnset="images_run-1.jpg">
+            <source media="min-width: 800px" scrnset="images_red_run-1.jpg">
+            <img src="images/run-1.jpg" alt="" width="400">
+        </picture>
+    </div>
+    <!--  -->
+    <!-- Pre -->
+    <div class="container font margin-bottom padding bg-gray">
+        <h1> Pre </h1>
+        <pre> Lorem ipsum dolor sit amet consectetur adipisicing elit. Deleniti error rem obcaecati accusamus, molestiae alias aspernatur doloremque libero. Nulla, doloribus. </pre>
+    </div>
+    <!--  -->
+    <!-- Progress -->
+    <div class="container padding margin-bottom font">
+        <h1> Progress </h1>
+        <label for="file"> DownLoading Progress </label>
+        <progress id="file" value="49" max="100"> 49% </progress>
+    </div>
+    <!--  -->
+    <!-- Q -->
+    <div class="container font margin-bottom padding bg-gray">
+        <h1> Q </h1>
+        <p> Lorem, ipsum dolor: <q> Lorem ipsum dolor sit amet. </q> Lorem ipsum dolor sit amet. </p>
+    </div>
+    <!--  -->
+    <!-- RP -->
+    <div class="container font padding margin-bottom">
+        <h1> RP & Ruby (I dont't Understand) </h1>
+    </div>
+    <!--  -->
+    <!-- S -->
+    <div class="container margin-bottom padding font bg-gray">
+        <h1> S </h1>
+        <p> <s> Lorem ipsum dolor sit amet. </s> </p>
+        <p> Sold out </p>
+    </div>
+    <!--  -->
+    <!-- Samp -->
+    <div class="container padding font margin-bottom">
+        <h1>Samp</h1>
+        <p> Lorem ipsum dolor sit amet. </p>
+        <p> <samp>File not Found</samp> <br> <samp> Press F1 to Continue </samp> </p>
+    </div>
+    <!--  -->
+    <!-- Script -->
+    <div class="container margin-bottom font padding bg-gray">
+        <h1> Script </h1>
+        <p id="demo"></p>
+        <script>
+            document.getElementById("demo").innerHTML = "Hi I am Salman";
+        </script>
+    </div>
+    <!--  -->
+
+    <!-- Select -->
+    <div class="container  padding font margin-bottom">
+        <h1> Select </h1>
+        <form action="#">
+            <label for="cars"> ChoOse your car </label>
+            <select name="cars" id="cars" class="font">
+                <option value="volvo"> Volvo </option>
+                <option value="sabb"> Sabb </option>
+                <option value="opel"> Opel </option>
+                <option value="audi"> Audi </option>
+            </select> <br> <br>
+            <input class="font" type="submit" value="submit">
+        </form>
+    </div>
+    <!--  -->
+    <!-- Small -->
+    <div class="container bg-gray padding font margin-bottom">
+        <h1> Small </h1>
+        <p> Lorem, ipsum dolor sit amet consectetur adipisicing elit. Voluptatem, repellat! </p>
+        <p> <small> Lorem, ipsum dolor sit amet consectetur adipisicing elit. Unde, aut. </small> </p>
+    </div>
+    <!--  -->
+    <!-- Audio -->
+    <div class="container font margin-bottom padding">
+        <h1> Audio </h1>
+        <audio controls>
+            <source src="audio/audio.mp3" type="audio/mpeg">
+        </audio>
+    </div>
+    <!--  -->
+    <!-- Span -->
+    <div class="container padding margin-bottom font bg-gray">
+        <h1> Span </h1>
+        <p> Lorem ipsum dolor sit amet. <span style="color: red"> red </span> <span style="color: green"> green </span> <span style="color: blue"> blue </span> </p>
+    </div>
+    <!--  -->
+    <!-- Strong -->
+    <div class="container font margin-bottom padding">
+        <h1> Strong </h1>
+        <p> Lorem ipsum dolor sit amet. </p>
+        <p> <strong> Lorem ipsum dolor sit amet. </strong> </p>
+    </div>
+    <!--  -->
+    <!-- Subscript -->
+    <div class="container padding margin-bottom font bg-gray">
+        <h1> Subscript </h1>
+        <p> Lorem ipsum dolor sit amet. </p>
+        <p> Lorem <sub> ipsum dolor </sub> sit amet. </p>
+        <p> h<sub>2</sub>0 </p>
+    </div>
+    <!--  -->
+    <!-- Svg -->
+    <div class="container font margin-bottom padding">
+        <h1> Svg </h1>
+        <svg width="200" height="200">
+            <circle cx="100" cy="100" r="80" stroke="black" stroke-width="4" fill="red">
+        </svg>
+    </div>
+    <!--  -->
+    <!-- Table -->
+    <div class="container padding margin-bottom font bg-gray">
+        <h1> Table </h1>
+        <table>
+            <tr>
+                <th> Month </th>
+                <th> Savings </th>
+            </tr>
+            <tr>
+                <td> January </td>
+                <td> 100$ </td>
+            </tr>
+        </table>
+    </div>
+    <!--  -->
+    <!-- Tbody -->
+    <div class="container font margin-bottom padding">
+        <h1> Thead, Tbody and Tfoot </h1>
+        <table>
+            <thead>
+                <tr>
+                    <th>Month</th>
+                    <th>Savings</th>
+                </tr>
+            </thead>
+            <tbody>
+                <tr>
+                    <td> January </td>
+                    <td> 100$ </td>
+                </tr>
+                <tr>
+                    <td> February </td>
+                    <td> 80$ </td>
+                </tr>
+            </tbody>
+            <tfoot>
+                <tr>
+                    <td>sum</td>
+                    <td>180$</td>
+                </tr>
+            </tfoot>
+        </table>
+    </div>
+    <!--  -->
+    <!-- TD -->
+    <div class="container padding margin-bottom font bg-gray">
+        <h1> TD </h1>
+        <table>
+            <tr>
+                <td> Cell A </td>
+                <td> Cell B </td>
+            </tr>
+            <tr>
+                <td> Cell C</td>
+                <td> Cell D </td>
+            </tr>
+        </table>
+    </div>
+    <!--  -->
+    <!-- Template -->
+    <div class="container font margin-bottom padding">
+        <h1> Template </h1>
+        <button onclick="showContent()" class="font">show hidden content</button>
+
+        <template>
+            <h2> Run </h2>
+            <img src="images/run-1.jpg">
+        </template>
+        <script>
+            function showContent() {
+                var temp = document.getElementsByTagName("template")[0];
+                var clon = temp.content.cloneNode(true);
+                document.body.appendChild(clon);
+            }
+        </script>
+    </div>
+    <!--  -->
+    <!-- Textarea -->
+    <div class="container padding margin-bottom bg-gray font">
+        <h1>Textarea</h1>
+        <form action="#">
+            <label for="w3review"> Review of w3schools: </label>
+            <textarea name="w3review" id="w3review" cols="30" rows="10">
+            At wschools.com you will learn how to make a website. They offer free tutorials in all web development technologies.
+            </textarea> <br> <br>
+            <input class="font" type="submit" value="submit">
+        </form>
+    </div>
+    <!--  -->
+    <!-- Tfoot -->
+    <div class="container font margin-bottom padding">
+        <h1> Tfoot </h1>
+        <table>
+            <thead>
+                <tr>
+                    <th> Month </th>
+                    <th> Savings </th>
+                </tr>
+            </thead>
+            <tbody>
+                <tr>
+                    <td> january </td>
+                    <td> 100$ </td>
+                </tr>
+                <tr>
+                    <td> February </td>
+                    <td> 80$ </td>
+                </tr>
+            </tbody>
+            <tfoot>
+                <tr>
+                    <td> Sum </td>
+                    <td> 180$ </td>
+                </tr>
+            </tfoot>
+        </table>
+    </div>
+    <!--  -->
+    <!-- TH -->
+    <div class="container bg-gray font padding margin-bottom">
+        <h1> TH </h1>
+        <table>
+            <tr>
+                <th> Month </th>
+                <th> Saving </th>
+            </tr>
+            <tr>
+                <td> January </td>
+                <td> $100 </td>
+            </tr>
+            <tr>
+                <td> February </td>
+                <td> 80$ </td>
+            </tr>
+        </table>
+    </div>
+    <!--  -->
+    <!-- Thead -->
+    <div class="container margin-bottom padding font">
+        <table>
+            <thead>
+                <tr>
+                    <th> Month </th>
+                    <th> Savings </th>
+                </tr>
+            </thead>
+            <tbody>
+                <tr>
+                    <td> january </td>
+                    <td> 100$ </td>
+                </tr>
+                <tr>
+                    <td> February </td>
+                    <td> 80$ </td>
+                </tr>
+            </tbody>
+            <tfoot>
+                <tr> 
+                    <td> Sum </td>
+                    <td> 180$ </td>
+                </tr>
+            </tfoot>
+        </table>
+    </div>
+    <!--  -->
+    <!-- Time -->
+    <div class="container font padding margin-bottom bg-gray">
+        <h1> Time (I dont understand) </h1>
+        <p> Open from 10:00 to 21:00 every week </p>
+        <p> I have a date on 2022-02-14 Valentines Day </p> <br> <br> <br>
+        <!--  -->
+        <p> Open from <time> 10:00 </time> to <time> 21:00 </time> weekday. </p>
+        <p> I have a date on <time datetime=" 2021-4-14 20:00 "> Valentines day </time> </p>
+    </div>
+    <!--  -->
+    <!-- TR -->
+    <div class="container margin-bottom padding font">
+        <h1> TR </h1>
+        <table>
+            <tr>
+                <th> Month </th>
+                <th> Savings </th>
+            </tr>
+            <tr>
+                <td> January </td>
+                <td> 200$ </td>
+            </tr>
+            <tr>
+                <td> february </td>
+                <td> 100$ </td>
+            </tr>
+        </table>
+    </div>
+    <!--  -->
+    <!-- U -->
+    <div class="container font padding margin-bottom bg-gray">
+        <h1> U </h1>
+        <p> Lorem ipsum dolor sit, amet consectetur adipisicing elit. <u> Iste magni repellendus modi ex assumenda, libero repellat sed perferendis minus beatae iure dignissimos quis? </u> Corporis suscipit, nam nulla doloremque perferendis ex! </p>
+    </div>
+    <!--  -->
+    <!-- UL -->
+    <div class="container margin-bottom padding font">
+        <h1> UL </h1>
+        <ul>
+            <li> <a href="index.html"> Home </a> </li>
+            <li> <a href="w3school.html"> W3schools </a> </li>
+            <li> Product </li>
+            <li> About </li>
+            <li> Contract US </li>
+        </ul>
+    </div>
+    <!--  -->
+    <!-- Var -->
+    <div class="container font padding margin-bottom bg-gray">
+        <h1> Var </h1>
+        <p> The area of a triangle is: 1/2 x <var> b </var> x <var> h </var>, Where <var>b</var> is the base, and <var>h</var> is the virtical height. </p>
+    </div>
+    <!--  -->
+    <!-- WBR  -->
+    <div class="container margin-bottom padding font">
+        <h1> Wbr (Not Working) </h1>
+        <p> Lorem ipsum dolor sit amet consectetur adipisicing elit. <wbr> Quibusdam possimus assumenda quia natus placeat! Assumenda esse quisquam iste perferendis vero eligendi distinctio, </wbr> modi voluptate molestiae, officia earum natus explicabo quasi. </p>
+    </div>
+    <!--  -->
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+    <!-- Footer-section Start -->
+    <div class="footer-section">
+        <div class="main-menu">
+            <div class="container">
+                <ul>
+                    <li> <a href="index.html"> Home </a> </li>
+                    <li> <a href="w3school.html"> W3schools Tags </a> </li>
+                </ul>
+            </div>
+        </div>
+    </div>
+    <!-- Footer-section End -->
+</body>
+</html>
